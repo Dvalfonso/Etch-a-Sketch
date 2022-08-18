@@ -1,0 +1,45 @@
+.header {
+    text-align: center;
+}
+
+h1 {
+    margin: 0%;
+    font-family: 'Silkscreen', cursive;
+}
+
+.supraContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.container {
+    border:thick solid black;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-auto-columns: auto;
+    grid-auto-rows: auto;
+    height: 500px;
+    width: 500px;
+    background-color: white;
+}
+
+button {
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    background-color:yellow;
+    font-family: 'Silkscreen', cursive;
+    border-style: inset;
+    border-width: 2px;
+    border-color: black;
+}
+
+body {
+    background-color: brown;
+}
+
+#copy {
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+}

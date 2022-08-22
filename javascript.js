@@ -11,7 +11,7 @@ for (let i = 0; i < 256; i++) {
 }
 
 let numero;
-let cantidad = 256; //cantidad de divs, la voy a usar para resetear el tablero
+let cantidad = 16; //cantidad de divs, la voy a usar para resetear el tablero
 
 function getNumber() {
      do {
